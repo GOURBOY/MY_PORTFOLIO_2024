@@ -1,3 +1,31 @@
+.abs {
+  font-size: 1.25rem;
+  position: absolute;
+  right: 495px;
+  top: 58px;
+}
+.abs2{
+
+  font-size: 1.25rem;
+  position: absolute;
+  right: 38px;
+  top: 35px;
+  padding: 6px 6px 0 6px;
+  color: brown !important; 
+  /* padding: 6px 6px 0 6px; */
+
+
+}
+.abs3{
+  font-size: 1.25rem;
+  position: absolute;
+  right: 485px;
+  top: 55px;
+  padding: 6px 6px 0 6px;
+  color: brown !important; 
+
+}
+
 .profile-pic {
   position: relative;
   max-width:130px;
