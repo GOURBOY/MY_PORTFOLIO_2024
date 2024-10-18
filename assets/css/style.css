@@ -283,10 +283,11 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
   min-height: 90px;
   padding: 30px 30px 40px;
 } */
-
+ 
+/* Colour Changes */
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ddd;
+  background-color: #006839;             
+  border-bottom: 1px solid #027236;
   box-sizing: content-box;
   min-height: 90px;
   padding: 30px 30px 40px;
@@ -296,9 +297,9 @@ ul.side-nav.fixed li.logo a {
   font-weight: 200;
   line-height: 100%;
 }
-
+/* colour changes */
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
+  background-color: #0bae73;
   border-left: 3px solid;
 }
 
@@ -351,7 +352,7 @@ h3 {
   background: #a7ffeb repeat;
   position: relative;
 }
-
+/* colour changes */
 #intro.section .container {
   color: white;
   font-weight: 200;
@@ -382,9 +383,12 @@ h3 {
 #intro.section .teal {
   padding: 0 10px;
 }
+.teal {
+  background-color: rgb(28, 129, 93) !important;
+}
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(12, 197, 132);
   height: 100%;
   left: 0;
   position: absolute;
@@ -586,9 +590,7 @@ small {
 
 /* .teal */
 
-.teal {
-  background-color: #008073 !important;
-}
+
 
 /* .teal {
   background-color: #00695c !important;
