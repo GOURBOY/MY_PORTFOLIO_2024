@@ -1,4 +1,10 @@
+.sofy{
 
+  display: block;
+  font-size: 14px;
+  position: relative;
+        line-height: 20px;
+}
 
 .abs {
   font-size: 1.25rem;
@@ -669,19 +675,31 @@ small {
     border-radius: 20% !important;
   } */
   .name-title {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     width: 100%;
+    
+    */
+
+    
+    display: block;
+    height: 100%;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
   }
   
   .picsy {
     width: 65px;
     height: 65px;
-    margin-left: 15px; /* Adjust this to control space between text and image */
+    margin: -55px;
+    margin-left: 250px; /* Adjust this to control space between text and image */
     border: 6px solid rgba(0, 77, 64, 0.4);
     border-radius: 20% !important;
+    
   }
   .name-title>span, .name-title>a {
     position: relative;
