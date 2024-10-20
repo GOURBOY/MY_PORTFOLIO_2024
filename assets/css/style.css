@@ -1,3 +1,14 @@
+.picsy{
+  width: 65px;
+  height: 65px;
+  
+  margin: -55px; 
+  margin-left:550px;
+  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border-radius: 20% !important;
+}
+
+
 .abs {
   font-size: 1.25rem;
   position: absolute;
