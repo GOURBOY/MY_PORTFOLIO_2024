@@ -1,10 +1,4 @@
-.sofy{
 
-  display: block;
-  font-size: 14px;
-  position: relative;
-        line-height: 20px;
-}
 
 .abs {
   font-size: 1.25rem;
@@ -674,6 +668,13 @@ small {
     border: 6px solid rgba(0, 77, 64, 0.4); 
     border-radius: 20% !important;
   } */
+  .sofy{
+
+    display: block;
+    font-size: 14px;
+    position: relative;
+          line-height: 20px;
+  }
   .name-title {
     /* display: flex;
     align-items: center;
